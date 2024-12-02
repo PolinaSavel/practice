@@ -23,7 +23,10 @@ public class Main {
         System.out.println(fruitList);
 
         // Добавление овощей
-        Collection<Vegetable> vegetables = Arrays.asList(new Vegetable("Морковь", 3.2), new Vegetable("Картофель", 5.4));
+        Collection<Vegetable> vegetables = Arrays.asList(
+                new Vegetable("Морковь", 3.2),
+                new Vegetable("Картофель", 5.4),
+                new Vegetable("Свекла", 1.0));
 
         fruitList.addAll(vegetables);
         System.out.println("Список после добавления овощей:");
